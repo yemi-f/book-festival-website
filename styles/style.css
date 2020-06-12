@@ -10,6 +10,13 @@ h3 {
     font-family: 'Montserrat', sans-serif;
 }
 
+#time {
+    color: white;
+}
+
+p {
+    color: #AAAAAA;
+}
 
 .btn:focus,
 .form-control:focus,
@@ -22,14 +29,29 @@ h3 {
     color: #F46668;
 }
 
+/* @media (max-width:991px) {
+   
+} */
+
+.text-light,
+.border-light {
+    color: #AAAAAA !important;
+    border-color: #AAAAAA !important;
+}
+
 @media (max-width:767px) {
     .border-left {
         border-left: 0px solid !important
     }
+
 }
 
 @media (max-width:575px) {
     .border-right {
         border-right: 0px solid !important
+    }
+
+    #date-border-bottom {
+        border-bottom: 1px solid white !important;
     }
 }
