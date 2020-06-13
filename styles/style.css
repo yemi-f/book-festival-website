@@ -29,9 +29,9 @@ p {
     color: #F46668;
 }
 
-/* @media (max-width:991px) {
-   
-} */
+p {
+    word-wrap: break-word;
+}
 
 .text-light,
 .border-light {
@@ -43,6 +43,7 @@ p {
     .border-left {
         border-left: 0px solid !important
     }
+
 
 }
 
